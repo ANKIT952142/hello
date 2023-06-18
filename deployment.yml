@@ -14,7 +14,7 @@ spec:
       spec:
        containers:
         - name: ankit
-          image: ankit952142/pipeline
+          image: ankit952142/pipeline:latest
           imagePullPolicy: Always
           ports:
           - containerPort: 80
